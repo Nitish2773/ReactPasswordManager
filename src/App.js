@@ -142,7 +142,7 @@ class App extends Component {
                 alt="password"
               />
               <input
-                type="text"
+                type="password"
                 className="input-element"
                 placeholder="Enter Password"
                 onChange={this.listenPassword}
@@ -199,7 +199,7 @@ class App extends Component {
                 className="empty-image"
                 alt="no passwords"
               />
-              <p className="no passwords">No passwords</p>
+              <p className="no passwords">No Passwords</p>
             </div>
           )}
           {isTrue && (
